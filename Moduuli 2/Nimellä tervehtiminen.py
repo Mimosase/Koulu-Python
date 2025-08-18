@@ -1,2 +1,2 @@
 name = input("Mikä on nimesi?")
-print(f"Hei, {name}!")
+print(f"Hei, {name}! :D")
