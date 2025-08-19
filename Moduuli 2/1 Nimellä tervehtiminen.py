@@ -1,2 +1,3 @@
-name = input("Mikä on nimesi?")
-print(f"Hei, {name}! :D")
+name = input("Give name: ")
+greeting = f"Hello, {name}!"
+print(greeting)

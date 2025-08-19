@@ -1,8 +1,11 @@
-print("Syötä kolme kokonaislukua!")
-n1 = int(input("Luku 1:"))
-n2 = int(input("Luku 2:"))
-n3 = int(input("Luku 3:"))
-summa = n1+n2+n3
-print("Summa =", (summa))
-print("Tulo =", (n1*n2*n3))
-print("Keskiarvo =", (summa/3))
+num1 = int(input("Enter the first integer: "))
+num2 = int(input("Enter the second integer: "))
+num3 = int(input("Enter the third integer: "))
+
+sum_of_numbers = num1+num2+num3
+product_of_numbers = num1*num2*num3
+average_of_numbers = sum_of_numbers/3
+
+print("The sum of the numbers:", (sum_of_numbers))
+print("The product of the numbers:", (product_of_numbers))
+print("The average of the numbers:", (average_of_numbers))

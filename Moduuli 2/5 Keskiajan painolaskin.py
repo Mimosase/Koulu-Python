@@ -1,16 +1,14 @@
-print("Hei keskiajalle jäänyt kaveri! Muunnetaan antiikkiset mittasi nykyäjan mittoihin.")
-print("Syötä massa leivisköinä, nauloina ja luoteina.")
-
-amount_le = float(input("Leiviskät:"))
-amount_na = float(input("Naulat:"))
-amount_lu = float(input("Luodit:"))
+talents = float(input("Enter talents: "))
+pounds = float(input("Enter pounds: "))
+lots = float(input("Enter lots: "))
 
 luoti = 13.3
 naula = 32 * luoti
 leiviskä = 20 * naula
 
-tulos = (luoti*amount_lu) + (naula * amount_na) + (leiviskä*amount_le)
-tulos_kiloissa = tulos // 1000
-tulos_grammoissa = tulos % 1000
+total_grams = (luoti*lots) + (naula * pounds) + (leiviskä*talents)
+kilograms = total_grams // 1000
+remaining_grams = total_grams % 1000
 
-print(f"{tulos_kiloissa} kiloa ja {tulos_grammoissa:.2f} grammaa.")
+print("The weight in modern units:")
+print(f"{int(kilograms)} kilograms and {remaining_grams:.2f} grams.")
