@@ -17,14 +17,3 @@ halkaisija = float(input("Enter the diameter of the first pizza (cm): "))
 hinta = float(input("Enter the price of the first pizza (euros):"))
 
 calculate_unit_price(halkaisija,hinta)
-
-yksikkohinta1 = calculate_unit_price(halkaisija,hinta)
-
-halkaisija = float(input("Enter the diameter of the first pizza (cm): "))
-hinta = float(input("Enter the price of the first pizza (euros):"))
-
-calculate_unit_price(halkaisija,hinta)
-
-yksikkohinta2 = calculate_unit_price(halkaisija,hinta)
-
-print(yksikkohinta1,yksikkohinta2)
